@@ -16,7 +16,7 @@ public class ClasesyObjetos {
         System.out.print("Ingrese el nombre del titular de la cuenta: ");
         String titular = scanner.nextLine();
         
-        System.out.print("Ingrese el saldo inicial de la cuenta: ");
+        System.out.print("Ingrese el saldo inicial de la cuenta en Pesos Colombianos (COP): ");
         double saldoInicial = scanner.nextDouble();
         
         // Crear una cuenta bancaria con el saldo inicial ingresado
@@ -36,19 +36,19 @@ public class ClasesyObjetos {
             
             switch (opcion) {
                 case 1:
-                    System.out.print("Ingrese el monto a consignar: ");
+                    System.out.print("Ingrese el monto a consignar en Pesos Colombianos (COP): ");
                     double montoConsignar = scanner.nextDouble();
                     cuenta.consignar(montoConsignar);
                     break;
                 case 2:
-                    System.out.print("Ingrese el monto a retirar: ");
+                    System.out.print("Ingrese el monto a retirar en Pesos Colombianos (COP): ");
                     double montoRetiro = scanner.nextDouble();
                     if (cuenta.retirar(montoRetiro)) {
                         System.out.println("Retiro realizado con exito.");
                     }
                     break;
                 case 3:
-                    System.out.println("Saldo actual: " + cuenta.getSaldo());
+                    System.out.println("Saldo actual: " + cuenta.getSaldo() + "COP");
                     break;
                 case 4:
                     cuenta.mostrarHistorial();
