@@ -3,7 +3,7 @@
 
 ## Captura de Pantalla donde se evidencia el menú principal, tras ingresar un nombre y un monto inicial para la creación de la cuenta bancaria.
 
-![Capturas](Capturas/Captura1.png)
+![Capturas](ClasesyObjetos/Capturas/Captura1.png)
 
 ## Captura de Pantalla donde se evidencia el proceso de consignación, además de la comisión que se está cobrando por la transacción, que en este caso es de 1%.
 
