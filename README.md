@@ -7,20 +7,20 @@
 
 ## Captura de Pantalla donde se evidencia el proceso de consignación, además de la comisión que se está cobrando por la transacción, que en este caso es de 1%.
 
-![Capturas](Capturas/Captura2.png)
+![Capturas](ClasesyObjetos/Capturas/Captura2.png)
 
 ## Captura de Pantalla donde se evidencia el proceso de retiro, donde además se agrega el impuesto de 4x1000.
 
-![Capturas](Capturas/Captura3.png)
+![Capturas](ClasesyObjetos/Capturas/Captura3.png)
 
 ## Captura de Pantalla donde se evidencia el saldo de la cuenta tras realizar las transacciones.
 
-![Capturas](Capturas/Captura4.png)
+![Capturas](ClasesyObjetos/Capturas/Captura4.png)
 
 ## Ultima captura de Pantalla donde se evidencia el historial de las transacciones realizadas, con su respectivo tipo de transacción y la fecha de realización.
 
-![Capturas](Capturas/Captura5.png)
+![Capturas](ClasesyObjetos/Capturas/Captura5.png)
 
 ## Captura donde se termina el programa con la operación número 5.
 
-![Capturas](Capturas/Captura6.png)
+![Capturas](ClasesyObjetos/Capturas/Captura6.png)
