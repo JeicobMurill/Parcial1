@@ -1,11 +1,9 @@
-
-package clasesyobjetos;
-
 /**
  *
  * @author Jeicob Murillo y Cristian Vidal
  */
 
+package clasesyobjetos;
 
 import java.util.Scanner;
 
@@ -13,11 +11,16 @@ public class ClasesyObjetos {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Crear una cuenta bancaria con un saldo inicial de 1000
+        // Solicitar al usuario el nombre y saldo inicial de la cuenta
         System.out.println("Bienvenido a su sistema bancario");
         System.out.print("Ingrese el nombre del titular de la cuenta: ");
         String titular = scanner.nextLine();
-        CuentaBancaria cuenta = new CuentaBancaria(titular, 1000.0);
+        
+        System.out.print("Ingrese el saldo inicial de la cuenta: ");
+        double saldoInicial = scanner.nextDouble();
+        
+        // Crear una cuenta bancaria con el saldo inicial ingresado
+        CuentaBancaria cuenta = new CuentaBancaria(titular, saldoInicial);
 
         boolean salir = false;
         while (!salir) {
@@ -36,7 +39,6 @@ public class ClasesyObjetos {
                     System.out.print("Ingrese el monto a consignar: ");
                     double montoConsignar = scanner.nextDouble();
                     cuenta.consignar(montoConsignar);
-                    System.out.println("Dinero consignado correctamente.");
                     break;
                 case 2:
                     System.out.print("Ingrese el monto a retirar: ");
@@ -60,6 +62,5 @@ public class ClasesyObjetos {
             }
         }
 
-        scanner.close();
     }
 }
