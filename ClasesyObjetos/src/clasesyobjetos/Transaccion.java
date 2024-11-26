@@ -23,7 +23,7 @@ public class Transaccion {
 
     @Override
     public String toString() {
-        return "Tipo: " + tipo + ", Monto: " + monto + ", Comisión: " + comision + ", Fecha: " + fecha;
+        return "Tipo: " + tipo + ", Monto: " + monto + " COP, Comisión: " + comision + ", Fecha: " + fecha;
     }
 }
 
