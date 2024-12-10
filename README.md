@@ -5,7 +5,7 @@
 
 ![Capturas](Parcial1/Capturas/Captura1.png)
 
-## Captura de Pantalla donde se evidencia la ejecución de la opción 1 de ver el menú disponible.
+## Captura de Pantalla donde se evidencia la ejecución de la opción 1 de ver el menú disponible, donde puede agregar menu por menu y al final da una lista de compra.
 
 ![Capturas](Parcial1/Capturas/Captura2.png)
 
